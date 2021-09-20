@@ -397,3 +397,44 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 if ( defined( 'JETPACK__VERSION' ) ) { require get_template_directory() . '/inc/jetpack.php'; }
+
+function customize_woocommerce_order_formatted_billing_address( $address ){
+	foreach ( $address as $key => $value ){
+		if ($key == 'state'){
+			$address[$key] = ucwords(str_replace( '_',' ',key_lable($key))) . ': ' . WC()->countries->get_states('TH')[$value];
+		}else {
+			$address[$key] = ucwords(str_replace( '_',' ',key_lable($key))) . ': ' . $value;
+		} 
+	}
+return $address;
+}
+add_filter('woocommerce_order_formatted_billing_address','customize_woocommerce_order_formatted_billing_address',10 );
+
+function customize_woocommerce_order_formatted_shipping_address( $address ){
+foreach ( $address as $key => $value ){
+	if ($key == 'state'){
+			$address[$key] = ucwords(str_replace( '_',' ',key_lable($key))) . ': ' . WC()->countries->get_states('TH')[$value];
+		}else {
+			$address[$key] = ucwords(str_replace( '_',' ',key_lable($key))) . ': ' . $value;
+		}
+	}
+return $address;
+}
+add_filter('woocommerce_order_formatted_shipping_address','customize_woocommerce_order_formatted_shipping_address',10 );
+
+function key_lable($key) {
+$lable = array(
+	'first_name' => 'ชื่อ',
+	'last_name' => 'นามสกุล',
+	'company' => 'บริษัท',
+	'address_1' => 'ที่อยู่',
+	'address_2' => 'แขวง/ตำบล',
+	'city' => 'เขต/แขวง',
+	'state' => 'จังหวัด',
+	'postcode' => 'รหัสไปรณีย์',
+	'country' => 'ประเทศ',
+);
+return $lable[$key];
+
+
+}
