@@ -1,0 +1,477 @@
+/*
+Font Name: Noto Sans Thai
+Weights: 100, 200, 300, 400, 500, 600, 700, 800
+*/
+@font-face {
+    font-family: 'helvethaica_bold';
+    src: url('../fonts/helvethaica/helvethaica_bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'helvethaica_med';
+    src: url('../fonts/helvethaica/helvethaica_med.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'helvethaica';
+    src: url('../fonts/helvethaica/helvethaica.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'noto-sans';
+    src: url('../fonts/noto/notosans-thin.woff2') format('woff2'),
+          url('../fonts/noto/notosans-thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'noto-sans';
+    src: url('../fonts/noto/notosans-extralight.woff2') format('woff2'),
+          url('../fonts/noto/notosans-extralight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'noto-sans';
+    src: url('../fonts/noto/notosans-light.woff2') format('woff2'),
+          url('../fonts/noto/notosans-light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'noto-sans';
+    src: url('../fonts/noto/notosans-regular.woff2') format('woff2'),
+          url('../fonts/noto/notosans-regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'noto-sans';
+    src: url('../fonts/noto/notosans-medium.woff2') format('woff2'),
+          url('../fonts/noto/notosans-medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'noto-sans';
+    src: url('../fonts/noto/notosans-semibold.woff2') format('woff2'),
+          url('../fonts/noto/notosans-semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'noto-sans';
+    src: url('../fonts/noto/notosans-bold.woff2') format('woff2'),
+          url('../fonts/noto/notosans-bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'noto-sans';
+    src: url('../fonts/noto/notosans-extrabold.woff2') format('woff2'),
+          url('../fonts/noto/notosans-extrabold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'noto-sans';
+    src: url('../fonts/noto/notosans-black.woff2') format('woff2'),
+          url('../fonts/noto/notosans-black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'noto-sans-thai';
+    src: url('../fonts/noto/notosansthai-thin.woff2') format('woff2'),
+          url('../fonts/noto/notosansthai-thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'noto-sans-thai';
+    src: url('../fonts/noto/notosansthai-extralight.woff2') format('woff2'),
+          url('../fonts/noto/notosansthai-extralight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'noto-sans-thai';
+    src: url('../fonts/noto/notosansthai-light.woff2') format('woff2'),
+          url('../fonts/noto/notosansthai-light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'noto-sans-thai';
+    src: url('../fonts/noto/notosansthai-regular.woff2') format('woff2'),
+          url('../fonts/noto/notosansthai-regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'noto-sans-thai';
+    src: url('../fonts/noto/notosansthai-medium.woff2') format('woff2'),
+          url('../fonts/noto/notosansthai-medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'noto-sans-thai';
+    src: url('../fonts/noto/notosansthai-semibold.woff2') format('woff2'),
+          url('../fonts/noto/notosansthai-semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'noto-sans-thai';
+    src: url('../fonts/noto/notosansthai-bold.woff2') format('woff2'),
+          url('../fonts/noto/notosansthai-bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'noto-sans-thai';
+    src: url('../fonts/noto/notosansthai-extrabold.woff2') format('woff2'),
+          url('../fonts/noto/notosansthai-extrabold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'noto-sans-thai';
+    src: url('../fonts/noto/notosansthai-black.woff2') format('woff2'),
+          url('../fonts/noto/notosansthai-black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+/*
+font name: sarabun
+weights: 100, 200, 300, 400, 500, 600, 700, 800
+*/
+@font-face {
+  font-family: 'sarabun';
+  src: url('../fonts/sarabun/sarabun-thin.woff2') format('woff2'),
+       url('../fonts/sarabun/sarabun-thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'sarabun';
+  src: url('../fonts/sarabun/sarabun-extralight.woff2') format('woff2'),
+       url('../fonts/sarabun/sarabun-extralight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'sarabun';
+  src: url('../fonts/sarabun/sarabun-light.woff2') format('woff2'),
+       url('../fonts/sarabun/sarabun-light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'sarabun';
+  src: url('../fonts/sarabun/sarabun-regular.woff2') format('woff2'),
+       url('../fonts/sarabun/sarabun-regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'sarabun';
+  src: url('../fonts/sarabun/sarabun-medium.woff2') format('woff2'),
+       url('../fonts/sarabun/sarabun-medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'sarabun';
+  src: url('../fonts/sarabun/sarabun-semibold.woff2') format('woff2'),
+       url('../fonts/sarabun/sarabun-semibold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'sarabun';
+  src: url('../fonts/sarabun/sarabun-bold.woff2') format('woff2'),
+       url('../fonts/sarabun/sarabun-bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'sarabun';
+  src: url('../fonts/sarabun/sarabun-extrabold.woff2') format('woff2'),
+       url('../fonts/sarabun/sarabun-extrabold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+@font-face {
+  font-family: 'Seed-Icons';
+  src:
+    url('../fonts/seed-icons/Seed-Icons.woff2?seed') format('woff2'),
+    url('../fonts/seed-icons/Seed-Icons.woff?seed') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="si-"], [class*=" si-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Seed-Icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.si-home:before {
+  content: "\e905";
+}
+.si-home-alt:before {
+  content: "\e904";
+}
+.si-info:before {
+  content: "\ed64";
+}
+.si-info-o:before {
+  content: "\ed63";
+}
+.si-menu:before {
+  content: "\e120";
+}
+.si-play:before {
+  content: "\e90b";
+}
+.si-play-o:before {
+  content: "\e909";
+}
+.si-zoom-in:before {
+  content: "\e037";
+}
+.si-zoom-out:before {
+  content: "\e038";
+}
+.si-search-o:before {
+  content: "\e036";
+}
+.si-search:before {
+  content: "\f002";
+}
+.si-cart:before {
+  content: "\ea02";
+}
+.si-basket:before {
+  content: "\ea06";
+}
+.si-bag:before {
+  content: "\e106";
+}
+.si-globe:before {
+  content: "\e078";
+}
+.si-location:before {
+  content: "\ea38";
+}
+.si-mail:before {
+  content: "\e002";
+}
+.si-phone:before {
+  content: "\ea1d";
+}
+.si-phone-o:before {
+  content: "\ea26";
+}
+.si-phone-alt:before {
+  content: "\e916";
+}
+.si-mobile:before {
+  content: "\ea78";
+}
+.si-fax:before {
+  content: "\ea68";
+}
+.si-fax-o:before {
+  content: "\ea67";
+}
+.si-clock:before {
+  content: "\e014";
+}
+.si-user:before {
+  content: "\e906";
+}
+.si-folder:before {
+  content: "\f115";
+}
+.si-tag:before {
+  content: "\e009";
+}
+.si-upload:before {
+  content: "\e068";
+}
+.si-download:before {
+  content: "\e069";
+}
+.si-plus:before {
+  content: "\e114";
+}
+.si-minus:before {
+  content: "\e115";
+}
+.si-arrow-left:before {
+  content: "\e094";
+}
+.si-arrow-right:before {
+  content: "\e095";
+}
+.si-arrow-up:before {
+  content: "\e096";
+}
+.si-arrow-down:before {
+  content: "\e097";
+}
+.si-check:before {
+  content: "\e116";
+}
+.si-cross:before {
+  content: "\e117";
+}
+.si-ellipsis:before {
+  content: "\e129";
+}
+.si-chevron-left:before {
+  content: "\e901";
+}
+.si-chevron-right:before {
+  content: "\e902";
+}
+.si-chevron-down:before {
+  content: "\e903";
+}
+.si-chevron-up:before {
+  content: "\e907";
+}
+.si-caret-left:before {
+  content: "\f0d9";
+}
+.si-caret-right:before {
+  content: "\f0da";
+}
+.si-caret-down:before {
+  content: "\f0d7";
+}
+.si-caret-up:before {
+  content: "\f0d8";
+}
+.si-angle-left:before {
+  content: "\f104";
+}
+.si-angle-right:before {
+  content: "\f105";
+}
+.si-angle-up:before {
+  content: "\f106";
+}
+.si-angle-down:before {
+  content: "\f107";
+}
+.si-eye:before {
+  content: "\e000";
+}
+.si-qrcode:before {
+  content: "\e9f8";
+}
+.si-barcode2:before {
+  content: "\e9f7";
+}
+.si-ampersand:before {
+  content: "\ee8e";
+}
+.si-cog:before {
+  content: "\e023";
+}
+.si-thailand:before {
+  content: "\e908";
+}
+.si-facebook:before {
+  content: "\e001";
+}
+.si-facebook-circled:before {
+  content: "\e003";
+}
+.si-facebook-squared:before {
+  content: "\e004";
+}
+.si-twitter:before {
+  content: "\e005";
+}
+.si-twitter-circled:before {
+  content: "\e006";
+}
+.si-line:before {
+  content: "\e007";
+}
+.si-line-circle:before {
+  content: "\e008";
+}
+.si-line-square:before {
+  content: "\e00a";
+}
+.si-google-plus-circle:before {
+  content: "\e00b";
+}
+.si-google-plus:before {
+  content: "\e00c";
+}
+.si-google-logo:before {
+  content: "\e934";
+}
+.si-facebook-logo:before {
+  content: "\e935";
+}
+.si-vimeo:before {
+  content: "\e92f";
+}
+.si-youtube:before {
+  content: "\e92e";
+}
+.si-instagram:before {
+  content: "\e932";
+}
+.si-book:before {
+  content: "\e900";
+}
+.si-book1:before {
+  content: "\e90a";
+}
+.si-book2:before {
+  content: "\e030";
+}
+.si-book3:before {
+  content: "\e031";
+}
+

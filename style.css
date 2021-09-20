@@ -1,0 +1,49 @@
+/*
+Theme Name: Tozen Seed2
+Theme URI: https://th.seedthemes.com/item/seed2/
+Author: SeedThemes
+Author URI: https://SeedThemes.com
+Description: Starter Theme
+Version: 1.999.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: seed
+Tags: featured-images, custom-menu
+*/
+
+
+/*
+===========================================
+
+This theme use SCSS, please check
+
+1. css/scss/_variables.scss - for some colors & styles.
+2. css/scss/mobile.scss - will be compiled to css/mobile.css and included in header.php
+2. css/scss/desktop.scss - will be compiled to css/desktop.css and used for desktop version.
+3. After all, you can add CSS to this style.css file to override all CSS.
+    
+=========================================== 
+*/
+
+/*
+.main-header {
+	background-color: #111;
+}
+.main-title,
+.main-title a {
+	color: #fff;
+}
+*/
+
+
+.bg-ie {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 999999;
+}
