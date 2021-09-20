@@ -109,7 +109,6 @@
   display: block;
   margin: 0;
   float: left;
-  vertical-align: middle;
   font-size: 22px;
   line-height: 50px;
 }
@@ -1273,9 +1272,6 @@ span.amount {
   display: none;
 }
 #billing_country_field {
-  display: none;
-}
-#billing_company_field {
   display: none;
 }
 
