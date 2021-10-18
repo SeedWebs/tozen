@@ -382,7 +382,7 @@
 
 .top-bar-page {
   height: 38px;
-  padding: 8px 0px 5px 0px;
+  padding: 0px 0px 5px 0px;
   text-align: right;
   background-color: #0095eb;
   overflow: hidden;
@@ -1368,4 +1368,8 @@ a.openlink.wpfdlightbox.wpfd_previewlink {
 }
 .wpfd-content {
   background: #fff !important;
+}
+
+#billing_country_field {
+  display: block;
 }
